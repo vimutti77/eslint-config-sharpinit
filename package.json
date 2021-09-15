@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-sharpinit",
+  "version": "0.0.0",
+  "description": "Sharpinit's ESLint config",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@https://github.com/vimutti77/eslint-config-sharpinit.git"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "sharpinit",
+    "typescript",
+    "prettier"
+  ],
+  "author": "vimutti77",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimutti77/eslint-config-sharpinit/issues"
+  },
+  "homepage": "https://github.com/vimutti77/eslint-config-sharpinit#readme",
+  "workspaces": [
+    "packages/eslint-config-sharpinit"
+  ],
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.0",
+    "standard-version": "9.3.1",
+    "typescript": "^4.4.3"
+  }
+}
