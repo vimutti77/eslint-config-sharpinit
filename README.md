@@ -1,24 +1,12 @@
 # eslint-config-sharpinit
 
-![License][license]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Sharpinit's ESLint config.
 
-# Usage
-Install `typescript`, `eslint` and `prettier`, `eslint-config-sharpinit` and put it into your `.eslintrc.js`.
-
-```bash
-$ npm install typescript eslint prettier eslint-config-sharpinit --save-dev
-```
-
-`.eslintrc.json`
-
-```json
-{
-  "extends": ["sharpinit"],
-}
-
-```
+# Packages
+[eslint-config-sharpinit](https://github.com/vimutti77/eslint-config-sharpinit/tree/main/packages/eslint-config-sharpinit)
+[eslint-config-sharpinit-next](https://github.com/vimutti77/eslint-config-sharpinit/tree/main/packages/eslint-config-sharpinit-next)
 
 ## License
 
