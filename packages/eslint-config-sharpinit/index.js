@@ -1,21 +1,21 @@
 module.exports = {
-  "extends": ["airbnb-base", "airbnb-typescript/base", "prettier"],
-  "plugins": ["prettier"],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "./tsconfig.json",
-    "ecmaVersion": 2021,
-    "sourceType": "module"
+  extends: ['airbnb-base', 'airbnb-typescript/base', 'prettier'],
+  plugins: ['prettier'],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: './tsconfig.json',
+    ecmaVersion: 2021,
+    sourceType: 'module',
   },
-  "rules": {
-    "prettier/prettier": "warn",
-    "arrow-body-style": "off",
-    "import/extensions": "off",
-    "import/prefer-default-export": "off",
-    "max-classes-per-file": "off",
-    "no-console": ["warn", { "allow": ["info", "warn", "error"] }],
-    "no-nested-ternary": "off",
-    "no-param-reassign": ["error", { "props": false }],
+  rules: {
+    'prettier/prettier': 'warn',
+    'arrow-body-style': 'off',
+    'import/extensions': 'off',
+    'import/prefer-default-export': 'off',
+    'max-classes-per-file': 'off',
+    'no-console': ['warn', { allow: ['info', 'warn', 'error'] }],
+    'no-nested-ternary': 'off',
+    'no-param-reassign': ['error', { props: false }],
     'no-restricted-syntax': [
       'error',
       {
@@ -32,10 +32,10 @@ module.exports = {
         message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
       },
     ],
-    "no-underscore-dangle": "off",
-    "prefer-destructuring": "off",
-    "@typescript-eslint/naming-convention": "off",
+    'no-underscore-dangle': 'off',
+    'prefer-destructuring': 'off',
+    '@typescript-eslint/naming-convention': 'off',
     '@typescript-eslint/no-unnecessary-condition': 'warn',
-    "@typescript-eslint/no-unused-vars": "warn"
-  }
+    '@typescript-eslint/no-unused-vars': 'warn',
+  },
 }
