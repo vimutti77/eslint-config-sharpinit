@@ -6,7 +6,7 @@
 Sharpinit's ESLint config.
 
 # Usage
-Install `typescript`, `eslint` and `prettier`, `eslint-config-airbnb-typescript-prettier` and put it into your `.eslintrc.js`.
+Install `typescript`, `eslint` and `prettier`, `eslint-config-sharpinit` and put it into your `.eslintrc.js`.
 
 ```bash
 $ npm install typescript eslint prettier eslint-config-sharpinit --save-dev
