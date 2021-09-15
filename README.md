@@ -1,6 +1,5 @@
 # eslint-config-sharpinit
 
-[![npm version][npm-image]][npm-url]
 ![License][license]
 
 Sharpinit's ESLint config.

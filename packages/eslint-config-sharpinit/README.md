@@ -1,6 +1,6 @@
 # eslint-config-sharpinit
 
-[![npm version][npm-image]][npm-url]
+[![npm version](https://badge.fury.io/js/eslint-config-sharpinit.svg)](//npmjs.com/package/eslint-config-sharpinit)
 ![License][license]
 
 Sharpinit's ESLint config.
