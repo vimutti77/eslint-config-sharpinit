@@ -6,13 +6,14 @@
 Sharpinit's ESLint config for NodeJS project.
 
 # Usage
-Install `typescript`, `eslint` and `prettier`, `eslint-config-sharpinit` and put it into your `.eslintrc.js`.
+
+1. Install `eslint-config-sharpinit`
 
 ```bash
-$ npm install typescript eslint prettier eslint-config-sharpinit --save-dev
+$ npm install --save-dev eslint-config-sharpinit
 ```
 
-`.eslintrc.json`
+2. Update `.eslintrc.json`
 
 ```json
 {

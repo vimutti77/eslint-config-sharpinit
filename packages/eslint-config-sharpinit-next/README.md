@@ -6,13 +6,14 @@
 Sharpinit's ESLint config for NextJS project.
 
 # Usage
-Install `typescript`, `eslint` and `prettier`, `eslint-config-sharpinit-next` and put it into your `.eslintrc.js`.
+
+1. Install `eslint-config-sharpinit-next`
 
 ```bash
-$ npm install typescript eslint prettier eslint-config-sharpinit-next --save-dev
+$ npm install --save-dev eslint-config-sharpinit-next
 ```
 
-`.eslintrc.json`
+2. Update `.eslintrc.json`
 
 ```json
 {

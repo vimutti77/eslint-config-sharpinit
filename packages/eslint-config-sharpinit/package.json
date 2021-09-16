@@ -1,12 +1,8 @@
 {
   "name": "eslint-config-sharpinit",
   "version": "0.0.7",
-  "description": "Sharpinit's ESLint config",
+  "description": "Sharpinit's ESLint config for NodeJS project",
   "main": "index.js",
-  "scripts": {
-    "release": "standard-version",
-    "release:dryrun": "standard-version --dry-run"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/vimutti77/eslint-config-sharpinit.git"
