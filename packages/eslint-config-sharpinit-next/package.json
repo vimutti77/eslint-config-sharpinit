@@ -2,7 +2,7 @@
   "name": "eslint-config-sharpinit-next",
   "version": "0.0.8-alpha.0",
   "description": "Sharpinit's ESLint config for NextJS project",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/vimutti77/eslint-config-sharpinit.git"
@@ -23,6 +23,9 @@
     "url": "https://github.com/vimutti77/eslint-config-sharpinit/issues"
   },
   "homepage": "https://github.com/vimutti77/eslint-config-sharpinit#readme",
+  "scripts": {
+    "build": "webpack"
+  },
   "peerDependencies": {
     "@next/eslint-plugin-next": "^11.1.2",
     "@typescript-eslint/eslint-plugin": "^4.31.1",

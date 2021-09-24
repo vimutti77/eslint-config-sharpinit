@@ -6,12 +6,6 @@ module.exports = {
     'plugin:@next/next/recommended',
     'next/core-web-vitals',
     'prettier',
-    require.resolve('../rules/base'),
-    require.resolve('../rules/import'),
-    require.resolve('../rules/jsx-a11y'),
-    require.resolve('../rules/prettier'),
-    require.resolve('../rules/react'),
-    require.resolve('../rules/typescript'),
   ],
   plugins: ['prettier'],
   parser: '@typescript-eslint/parser',
@@ -25,5 +19,13 @@ module.exports = {
   },
   env: {
     browser: true,
+  },
+  rules: {
+    ...require('../../rules/base'),
+    ...require('../../rules/import'),
+    ...require('../../rules/jsx-a11y'),
+    ...require('../../rules/prettier'),
+    ...require('../../rules/react'),
+    ...require('../../rules/typescript'),
   },
 }

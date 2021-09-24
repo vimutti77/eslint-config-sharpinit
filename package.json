@@ -4,7 +4,8 @@
   "description": "Sharpinit's ESLint config",
   "scripts": {
     "postinstall": "lerna bootstrap",
-    "release": "lerna publish"
+    "build": "lerna run build",
+    "release": "npm run build && lerna publish"
   },
   "repository": {
     "type": "git",
@@ -27,9 +28,11 @@
   },
   "homepage": "https://github.com/vimutti77/eslint-config-sharpinit#readme",
   "workspaces": [
+    "common/*",
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "4.0.0"
+    "lerna": "4.0.0",
+    "webpack-cli": "^4.8.0"
   }
 }
