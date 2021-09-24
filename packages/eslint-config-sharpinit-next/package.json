@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sharpinit-next",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Sharpinit's ESLint config for NextJS project",
   "main": "lib/index.js",
   "files": [
