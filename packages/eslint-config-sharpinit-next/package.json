@@ -3,6 +3,9 @@
   "version": "0.0.8",
   "description": "Sharpinit's ESLint config for NextJS project",
   "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/vimutti77/eslint-config-sharpinit.git"
