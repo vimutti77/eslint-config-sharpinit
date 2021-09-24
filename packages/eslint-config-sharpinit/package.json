@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/vimutti77/eslint-config-sharpinit#readme",
   "scripts": {
-    "build": "webpack"
+    "build": "esbuild index.js --bundle --outfile=lib/index.js --platform=node"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.31.1",
