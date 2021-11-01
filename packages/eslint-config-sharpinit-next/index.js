@@ -16,6 +16,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
+    extraFileExtensions: ['.mjs'],
   },
   env: {
     browser: true,

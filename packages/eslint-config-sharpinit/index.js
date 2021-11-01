@@ -6,6 +6,7 @@ module.exports = {
     project: './tsconfig.json',
     ecmaVersion: 2021,
     sourceType: 'module',
+    extraFileExtensions: ['.mjs'],
   },
   rules: {
     ...require('../../rules/base'),
