@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+ssh://git@github.com/vimutti77/eslint-config-sharpinit.git"
   },
-  "engines": {
-    "node": ">=16"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
