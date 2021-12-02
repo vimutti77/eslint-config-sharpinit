@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-sharpinit-react",
+  "version": "0.2.1",
+  "description": "Sharpinit's ESLint config for React project",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vimutti77/eslint-config-sharpinit.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "sharpinit",
+    "typescript",
+    "prettier"
+  ],
+  "author": "vimutti77",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimutti77/eslint-config-sharpinit/issues"
+  },
+  "homepage": "https://github.com/vimutti77/eslint-config-sharpinit#readme",
+  "scripts": {
+    "build": "esbuild index.js --bundle --outfile=lib/index.js --platform=node"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1 || ^19.0.0",
+    "eslint-config-airbnb-typescript": "^14.0.1 || ^16.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.1",
+    "typescript": ">=4.4.4"
+  }
+}

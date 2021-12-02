@@ -6,6 +6,7 @@ Sharpinit's ESLint config.
 
 # Packages
 - [eslint-config-sharpinit](https://github.com/vimutti77/eslint-config-sharpinit/tree/main/packages/eslint-config-sharpinit)
+- [eslint-config-sharpinit-react](https://github.com/vimutti77/eslint-config-sharpinit/tree/main/packages/eslint-config-sharpinit-react)
 - [eslint-config-sharpinit-next](https://github.com/vimutti77/eslint-config-sharpinit/tree/main/packages/eslint-config-sharpinit-next)
 
 ## License
