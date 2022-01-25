@@ -1,6 +1,7 @@
 module.exports = {
   'arrow-body-style': 'off',
   'max-classes-per-file': 'off',
+  'no-continue': 'off',
   'no-console': ['warn', { allow: ['info', 'warn', 'error'] }],
   'no-nested-ternary': 'off',
   'no-param-reassign': ['error', { props: false }],
