@@ -22,11 +22,11 @@ module.exports = {
     browser: true,
   },
   rules: {
-    ...require('../../rules/base'),
-    ...require('../../rules/import'),
-    ...require('../../rules/jsx-a11y'),
-    ...require('../../rules/prettier'),
-    ...require('../../rules/react'),
-    ...require('../../rules/typescript'),
+    ...require('../../common/rules/base'),
+    ...require('../../common/rules/import'),
+    ...require('../../common/rules/jsx-a11y'),
+    ...require('../../common/rules/prettier'),
+    ...require('../../common/rules/react'),
+    ...require('../../common/rules/typescript'),
   },
 }

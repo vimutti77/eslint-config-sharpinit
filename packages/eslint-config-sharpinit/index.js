@@ -9,9 +9,9 @@ module.exports = {
     extraFileExtensions: ['.mjs'],
   },
   rules: {
-    ...require('../../rules/base'),
-    ...require('../../rules/import'),
-    ...require('../../rules/prettier'),
-    ...require('../../rules/typescript'),
+    ...require('../../common/rules/base'),
+    ...require('../../common/rules/import'),
+    ...require('../../common/rules/prettier'),
+    ...require('../../common/rules/typescript'),
   },
 }
