@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sharpinit-react",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Sharpinit's ESLint config for React project",
   "main": "lib/index.js",
   "files": [
