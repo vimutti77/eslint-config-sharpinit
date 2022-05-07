@@ -3,7 +3,7 @@ module.exports = {
   'react/display-name': 'off',
   "react/function-component-definition": "off",
   'react/jsx-no-duplicate-props': ['error', { ignoreCase: false }],
-  // "react/jsx-no-useless-fragment": ['warn', { allowExpressions: true }],
+  "react/jsx-no-useless-fragment": ['warn', { allowExpressions: true }],
   'react/jsx-props-no-spreading': 'off',
   'react/react-in-jsx-scope': 'off',
   'react/require-default-props': 'off',
