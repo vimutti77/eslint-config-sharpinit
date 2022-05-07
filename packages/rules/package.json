@@ -1,8 +1,6 @@
 {
   "name": "rules",
   "private": true,
-  "version": "0.7.0",
-  "description": "",
   "main": "index.js",
   "author": "vimutti77",
   "license": "MIT"
