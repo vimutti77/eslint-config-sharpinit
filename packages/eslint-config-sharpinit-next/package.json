@@ -26,6 +26,9 @@
   "scripts": {
     "build": "esbuild index.js --bundle --outfile=lib/index.js --platform=node"
   },
+  "dependencies": {
+    "rules": "*"
+  },
   "peerDependencies": {
     "@next/eslint-plugin-next": "^12.0.7",
     "@typescript-eslint/eslint-plugin": "^5.7.0",

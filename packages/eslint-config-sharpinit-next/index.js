@@ -1,3 +1,5 @@
+const rules = require('rules')
+
 module.exports = {
   extends: [
     'airbnb',
@@ -22,11 +24,11 @@ module.exports = {
     browser: true,
   },
   rules: {
-    ...require('../../common/rules/base'),
-    ...require('../../common/rules/import'),
-    ...require('../../common/rules/jsx-a11y'),
-    ...require('../../common/rules/prettier'),
-    ...require('../../common/rules/react'),
-    ...require('../../common/rules/typescript'),
+    ...rules.base,
+    ...rules.import,
+    ...rules.jsxA11y,
+    ...rules.prettier,
+    ...rules.react,
+    ...rules.typescript,
   },
 }

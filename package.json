@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/vimutti77/eslint-config-sharpinit#readme",
   "workspaces": [
-    "common/*",
     "packages/*"
   ],
   "devDependencies": {

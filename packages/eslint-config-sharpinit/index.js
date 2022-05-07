@@ -1,3 +1,5 @@
+const rules = require('rules')
+
 module.exports = {
   extends: ['airbnb-base', 'airbnb-typescript/base', 'prettier'],
   plugins: ['prettier'],
@@ -9,9 +11,9 @@ module.exports = {
     extraFileExtensions: ['.mjs'],
   },
   rules: {
-    ...require('../../common/rules/base'),
-    ...require('../../common/rules/import'),
-    ...require('../../common/rules/prettier'),
-    ...require('../../common/rules/typescript'),
+    ...rules.base,
+    ...rules.import,
+    ...rules.prettier,
+    ...rules.typescript,
   },
 }
