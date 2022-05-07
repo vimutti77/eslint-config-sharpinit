@@ -1,5 +1,6 @@
 {
   "name": "rules",
+  "private": true,
   "version": "0.6.1",
   "description": "",
   "main": "index.js",
