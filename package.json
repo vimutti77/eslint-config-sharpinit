@@ -29,6 +29,6 @@
   ],
   "devDependencies": {
     "esbuild": "0.14.38",
-    "lerna": "4.0.0"
+    "lerna": "5.0.0"
   }
 }
