@@ -1,0 +1,26 @@
+{
+  "name": "@sharpinit/eslint-rules",
+  "version": "0.7.2",
+  "description": "Sharpinit's ESLint rules",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vimutti77/eslint-config-sharpinit.git"
+  },
+  "keywords": [
+    "eslint",
+    "sharpinit"
+  ],
+  "author": "vimutti77",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimutti77/eslint-config-sharpinit/issues"
+  },
+  "homepage": "https://github.com/vimutti77/eslint-config-sharpinit#readme",
+  "scripts": {
+    "build": "esbuild index.js --bundle --outfile=lib/index.js --platform=node"
+  }
+}
