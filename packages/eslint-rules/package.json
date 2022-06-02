@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/vimutti77/eslint-config-sharpinit.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "eslint",
     "sharpinit"
