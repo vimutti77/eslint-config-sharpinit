@@ -1,6 +1,6 @@
 {
   "name": "@sharpinit/eslint-config-node",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Sharpinit's ESLint config for NodeJS project",
   "main": "lib/index.js",
   "files": [
@@ -27,7 +27,7 @@
     "build": "esbuild index.js --bundle --outfile=lib/index.js --platform=node"
   },
   "dependencies": {
-    "@sharpinit/eslint-rules": "0.8.0"
+    "@sharpinit/eslint-rules": "^0.9.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.27.0",
