@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-sharpinit",
-  "version": "0.0.0",
+  "name": "@sharpinit/eslint-config",
+  "version": "1.0.0",
   "description": "Sharpinit's ESLint config",
   "scripts": {
     "postinstall": "lerna bootstrap",
@@ -28,7 +28,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "esbuild": "0.14.38",
-    "lerna": "4.0.0"
+    "esbuild": "0.14.42",
+    "lerna": "5.0.0"
   }
 }

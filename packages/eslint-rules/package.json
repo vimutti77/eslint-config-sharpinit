@@ -22,6 +22,5 @@
   "homepage": "https://github.com/vimutti77/eslint-config-sharpinit#readme",
   "scripts": {
     "build": "esbuild index.js --bundle --outfile=lib/index.js --platform=node"
-  },
-  "gitHead": "c85e226f3c034b661ccd7f6b7cfc153353380c03"
+  }
 }
