@@ -1,6 +1,6 @@
 {
   "name": "@sharpinit/eslint-rules",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Sharpinit's ESLint rules",
   "main": "lib/index.js",
   "files": [
