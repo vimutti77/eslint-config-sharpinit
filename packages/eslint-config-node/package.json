@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/vimutti77/eslint-config-sharpinit#readme",
   "scripts": {
-    "build": "esbuild index.js --bundle --outfile=lib/index.js --platform=node"
+    "build": "esbuild index.js --bundle --outfile=lib/index.js --platform=node --external:@sharpinit/eslint-rules"
   },
   "dependencies": {
     "@sharpinit/eslint-rules": "^0.12.0"
