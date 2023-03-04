@@ -24,4 +24,5 @@ module.exports = {
     ...rules.react,
     ...rules.typescript,
   },
+  reportUnusedDisableDirectives: true,
 }

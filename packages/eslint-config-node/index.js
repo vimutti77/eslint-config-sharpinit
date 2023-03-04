@@ -16,4 +16,5 @@ module.exports = {
     ...rules.prettier,
     ...rules.typescript,
   },
+  reportUnusedDisableDirectives: true,
 }
