@@ -1,6 +1,6 @@
 {
   "name": "@sharpinit/eslint-config-next",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "description": "Sharpinit's ESLint config for NextJS project",
   "main": "lib/index.js",
   "files": [
@@ -30,7 +30,7 @@
     "build": "esbuild index.js --bundle --outfile=lib/index.js --platform=node --external:@sharpinit/eslint-rules"
   },
   "dependencies": {
-    "@sharpinit/eslint-rules": "^0.13.0"
+    "@sharpinit/eslint-rules": "^0.14.0"
   },
   "peerDependencies": {
     "@next/eslint-plugin-next": "^13.4.6",
