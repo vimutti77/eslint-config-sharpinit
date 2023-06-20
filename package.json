@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Sharpinit's ESLint config",
   "scripts": {
-    "postinstall": "lerna bootstrap",
-    "build": "lerna run build",
+    "build": "npm run build --ws",
     "release": "npm run build && lerna publish"
   },
   "repository": {
@@ -28,7 +27,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "esbuild": "0.17.18",
-    "lerna": "6.6.1"
+    "esbuild": "0.18.5",
+    "lerna": "7.0.2"
   }
 }
