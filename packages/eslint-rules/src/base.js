@@ -1,5 +1,6 @@
 module.exports = {
   'arrow-body-style': 'off',
+  'class-methods-use-this': 'off',
   'max-classes-per-file': 'off',
   'no-continue': 'off',
   'no-console': ['warn', { allow: ['info', 'warn', 'error'] }],
