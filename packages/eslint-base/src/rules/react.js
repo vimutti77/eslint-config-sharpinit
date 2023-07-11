@@ -2,6 +2,7 @@ module.exports = {
   'react/destructuring-assignment': 'off',
   'react/display-name': 'off',
   'react/function-component-definition': 'off',
+  'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
   'react/jsx-key': [
     'warn',
     {

@@ -1,7 +1,7 @@
-const rules = require('@sharpinit/eslint-rules')
+const { overrides, rules, setttings } = require('@sharpinit/eslint-base')
 
 module.exports = {
-  extends: ['airbnb', 'airbnb/hooks', 'airbnb-typescript', 'prettier'],
+  extends: ['airbnb', 'airbnb/hooks', 'prettier'],
   plugins: ['prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -16,6 +16,14 @@ module.exports = {
   env: {
     browser: true,
   },
+  setttings: {
+    ...setttings,
+    'import/resolver': {
+      node: {
+        extensions: ['.mjs', '.js', '.jsx', '.json', '.ts', '.tsx', '.d.ts'],
+      },
+    },
+  },
   rules: {
     ...rules.base,
     ...rules.import,
@@ -24,5 +32,6 @@ module.exports = {
     ...rules.react,
     ...rules.typescript,
   },
+  overrides: [overrides],
   reportUnusedDisableDirectives: true,
 }

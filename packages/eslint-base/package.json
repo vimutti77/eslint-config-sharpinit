@@ -1,7 +1,7 @@
 {
-  "name": "@sharpinit/eslint-rules",
+  "name": "@sharpinit/eslint-base",
   "version": "0.14.0",
-  "description": "Sharpinit's ESLint rules",
+  "description": "Sharpinit's ESLint base",
   "main": "lib/index.js",
   "files": [
     "lib/index.js"
