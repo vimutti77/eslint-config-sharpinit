@@ -8,7 +8,7 @@ module.exports = {
     'next/core-web-vitals',
     'prettier',
   ],
-  plugins: ['prettier'],
+  plugins: ['@typescript-eslint', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',

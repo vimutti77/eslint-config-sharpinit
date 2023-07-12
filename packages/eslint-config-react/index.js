@@ -2,7 +2,7 @@ const { overrides, rules, settings } = require('@sharpinit/eslint-base')
 
 module.exports = {
   extends: ['airbnb', 'airbnb/hooks', 'prettier'],
-  plugins: ['prettier'],
+  plugins: ['@typescript-eslint', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
