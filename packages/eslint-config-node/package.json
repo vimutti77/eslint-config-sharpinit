@@ -1,6 +1,6 @@
 {
   "name": "@sharpinit/eslint-config-node",
-  "version": "0.16.0",
+  "version": "0.16.1",
   "description": "Sharpinit's ESLint config for NodeJS project",
   "main": "lib/index.js",
   "files": [
