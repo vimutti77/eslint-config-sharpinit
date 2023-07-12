@@ -1,4 +1,4 @@
-const { overrides, rules, setttings } = require('@sharpinit/eslint-base')
+const { overrides, rules, settings } = require('@sharpinit/eslint-base')
 
 module.exports = {
   extends: ['airbnb-base', 'prettier'],
@@ -10,7 +10,7 @@ module.exports = {
     sourceType: 'module',
     extraFileExtensions: ['.mjs'],
   },
-  setttings,
+  settings,
   rules: {
     ...rules.base,
     ...rules.import,
