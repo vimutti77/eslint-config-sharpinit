@@ -1,6 +1,6 @@
 {
   "name": "@sharpinit/eslint-base",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "Sharpinit's ESLint base",
   "main": "lib/index.js",
   "files": [
